@@ -9,6 +9,7 @@ async function bootstrap() {
     forbidNonWhitelisted: true, // 配合whitelist使用 作用于客户端传值多余字段进行抛错处理
     //transform: true, // 帮助我们类型转换成所期望的类型 如get请求过来的id原本为string 在方法形参定义为number 就会帮我们自动转换，会有性能影响
   }));
+  
   await app.listen(3000);
 }
 bootstrap();
