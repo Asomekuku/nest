@@ -13,9 +13,4 @@ async function bootstrap() {
   await app.listen(3000);
 }
 bootstrap();
-// nest g co 创建controller
-// nest g s 创建service
-// nest g module 创建module
 
-//npm install class-validator npm install class-transformer 校验参数
-// npm i @nestjs/mapped-types
